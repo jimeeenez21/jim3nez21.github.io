@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <main class="content container">
+      {{ content }}
+    </main>
+
+    {% include sidebar.html %}
+
+    <!--[if gt IE 8]><!---->
+    <script src="{{ site.baseurl }}/public/js/hydejack.js" async></script>
+    <!--<![endif]-->
+  </body>
+</html>
